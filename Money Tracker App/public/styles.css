@@ -1,0 +1,93 @@
+body, html{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    text-align: center;
+    background-color: antiquewhite;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h2{
+    text-align: center;
+}
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.input-section label{
+    font-weight: bold;
+    margin-right: 4px;
+}
+.input-section input,
+.input-section select{
+    background-color: aliceblue;
+    padding: 10px 5px;
+    width: 130px;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px hsl(0, 0%, 0%,0.1);
+}
+.input-section select{
+    background-color: aliceblue;
+}
+.input-section input:hover,
+.input-section select:hover{
+    border-color: blue;
+}
+.input-section button{
+    background-color: aliceblue;
+    padding: 10px 5px;
+    width: 130px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px hsl(0, 0%, 0%,0.1);
+}
+.input-section button:hover{
+    background-color: blue;
+    color: white;
+}
+.budget-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: antiquewhite;
+}
+#budget-table-body tr:nth-child(even){
+    background-color: aliceblue;
+}
+tfoot td{
+    font-weight: bold;
+}
+.del-btn{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.del-btn:hover{
+    background-color: tomato;
+    color: white;
+}
+.del-btn:active{
+    background-color: hsl(9, 97%, 45%);
+    color: white;
+}
